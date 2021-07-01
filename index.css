@@ -1,0 +1,307 @@
+body{
+  margin: 0;
+}
+.wrapper {
+  background-image: url(https://www.kastapp.co/images/gradient-violet-bg.jpg);
+  background-color: #331a5c;
+  background-position: 50% 50%;
+  margin: 0;
+  
+  padding-bottom: 232px;
+}
+.comon{
+  position: fixed;
+  top: 1.7%;
+}
+.logo.small {
+  position: fixed;
+  z-index: 2;
+  width: 201px;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  
+}
+.navbar {
+  
+  
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.navbar a {
+  float: right;
+  
+  
+  
+  font: 16px Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: fixed;
+  left: 75%;
+  z-index: 2;
+  
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown .dropbtn2 {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown .dropbtn3 {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content3 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.show {
+  display: block;
+}
+.show2 {
+  display: block;
+}
+.show3 {
+  display: block;
+}
+.nav {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  float: right;
+  box-shadow: inset 0 0 0 1px #fff;
+  text-align: center;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  width: 104px;
+  height: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  position: fixed;
+  left: 94%
+}
+h1{
+  text-align: center;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+ a{
+  
+  color: white;
+  position: relative;
+  
+  font: 1.25em sans-serif;
+  
+}
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  text-align: center;
+  max-width: 860px;
+
+}
+.primary-button{
+  text-align: center;
+  text-align: center;
+  min-width: 215px;
+  padding: 0px 40px;
+  float: none;
+  clear: both;
+  border-style: solid;
+  border-width: 10px;
+
+  border-color: rgba(254, 144, 0, 0);
+  border-radius: 3px;
+  background-color: #fe9000;
+  left: 855px;
+  bottom: -30px;
+}
+.wrapper2{
+  margin-top: -20px;
+  height: 50vh;
+  background-color: white;
+}
+.header2{
+  height: 10vh;
+  width: 100vw;
+  margin: 0%;
+  top: 930px;
+  position: absolute;
+  background-color: rgb(38, 35, 92);
+  z-index: 1;
+  
+ 
+}
+.whitesection{
+ 
+ 
+ 
+  height: 100vh;
+   width: 210vh;
+ 
+ 
+}
+h2{
+  position: absolute;
+  color: #FFFFFF;
+  left: 47%;
+  font-size: 24px;
+  top: 50px;
+  font-family: sans-serif;
+}
+.column{
+  
+  text-align: center;
+  
+  padding: 100px;
+  
+}
+.grid1{
+  max-width: 700px;
+  margin-right: auto;
+  margin-bottom: 75px;
+  margin-left: auto;
+  
+  height: 200px;
+ 
+  
+  
+  
+  
+}
+.grid1 img{
+  padding: 30px 15px 90px 15px;
+  
+  
+  
+  
+}
+.column p1{
+  font-style:italic;
+  font-size: 20px;
+  position: absolute;
+  top: 1350px;
+  left: 600px;
+  font-family: sans-serif;
+  
+  
+}
+.tealsection{
+  position: relative;
+  background-image: url(https://www.kastapp.co/images/green-bg.jpg);
+  
+  height: 50vh;
+  top: 0px;
+  
+}
+.tealsection a{
+  text-align: center;
+  text-align: center;
+  min-width: 215px;
+  padding: 0px 40px;
+  float: none;
+  clear: both;
+  border-style: solid;
+  border-width: 10px;
+
+  border-color: rgba(254, 144, 0, 0);
+  border-radius: 3px;
+  background-color: #fe9000;
+  left: 855px;
+  bottom: -50px;
+}

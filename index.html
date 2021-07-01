@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>staticLayout</title>
-</head>
-<body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam non dicta, cupiditate quidem itaque vel sapiente expedita voluptatem dolorum deserunt. Sunt facilis iste aspernatur, rem amet rerum porro deleniti!</h1>
-</body>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar">
+        <img
+          src="https://www.kastapp.co/images/kast-logo-horizontal-color-white.svg"
+          width="201"
+          
+          alt="kast logo"
+          id="navigation logo"
+          class="logo small"
+        />
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">
+            About
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">What is Kast?</a>
+            <a href="#">Kast TV</a>
+            <a href="#">Blog</a>
+            <a href="#">Press Releases</a>
+          </div>
+          <button class="dropbtn" onclick="myFunction2()">
+            Help
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content2" id="myDropdown2">
+            <a href="#">Contact Support</a>
+            <a href="#">FAQ's</a>
+            <a href="#">Get Kast</a>
+          </div>
+          <button class="dropbtn" onclick="myFunction3()">
+            Community
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content3" id="myDropdown3">
+            <a href="#">Community Guidelines</a>
+            <a href="#">Founders Hall of Fame</a>
+          </div>
+            <a href="OpenKast"><span class="nav">Open Kast</span></a>
+            <a href="Premium"><span class="comon">Premium</span></a>
+          </div>
+      </div>
+      <div class="img2">
+        <img src="https://www.kastapp.co/images/laptop-large-p-800.png" alt="laptop" class="center" width="610" height="356">
+      </div>
+      <div class="imageheader">
+        <h1>Watch parties made easy.</h1>
+        <p>Watch whatever you want with friends online: movies, TV shows, you name it. Share your screen and camera or launch content directly from Kast TV in your watch parties. Join millions of kasters today!</p>
+        <a href="./blank.html" target ="_blank" class="primary-button" style="text-decoration: white;">Open Kast</a>
+      </div>
+    </div>
+  <div class="wrapper2">
+    <div class="header2">
+      <h2>Featured In</h2>
+    </div>
+    <div class="whitesection">
+      <div class="column">
+        <div class="grid1">
+        <img src="https://www.kastapp.co/images/wired-logo.svg" alt="wired-logo">
+        <img src="https://www.kastapp.co/images/nerdist-logo.svg" alt="nerdist-logo">
+        <img src="https://www.kastapp.co/images/yahoo-finance-logo.svg" alt="yahoo-finance-logo">
+        <img src="https://www.kastapp.co/images/evening-standard-logo.svg" alt="evening-standard-logo">
+        <img src="https://www.kastapp.co/images/bbc-logo.svg"  alt="bbc-logo">
+        <img src="https://www.kastapp.co/images/daily-mail-logo.svg" alt="daily-mail-logo">
+        </div>
+        <p1>"Kast has probably never been more relevant- or necessary -than it is right now"</p1>
+      </div>
+    </div>
+  </div>
+  <div class="tealsection">
+    <h1>What is Kast?</h1>
+    <p>Looking for a place to watch moves, play, and hang out with friends? Hop onto Kast and start sharing experiences real-time!</p>
+    <p>Up to 20 people can share their screen or camera and another 100 can watch in a party. And with KAST TV, you can now stream directly from the cloud.</p>
+    <a href="OpenKast" style="text-decoration: none;">Open Kast</a>
+  </div>
+
+    <script>
+      /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+
+      function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show2");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn2")) {
+          var myDropdown2 = document.getElementById("myDropdown2");
+          if (myDropdown.classList.contains("show2")) {
+            myDropdown.classList.remove("show2");
+          }
+        }
+      };
+      function myFunction3() {
+        document.getElementById("myDropdown3").classList.toggle("show3");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn3")) {
+          var myDropdown2 = document.getElementById("myDropdown3");
+          if (myDropdown.classList.contains("show3")) {
+            myDropdown.classList.remove("show3");
+          }
+        }
+      };
+    </script>
+  </body>
 </html>
